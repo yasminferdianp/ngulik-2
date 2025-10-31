@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ngulik-2</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- membuat header -->
     <h1>Ngulik-2 Latihan html</h1>
     <h1>Header 1: Selamat Datang di Latihan HTML</h1>
@@ -14,79 +14,218 @@
     <h4>Header 4: Judul C</h4>
     <h5>Header 5: Judul D</h5>
     <h6>Header 6: Judul E</h6>
-    <hr>
+    <hr />
 
     <!-- membuat paragraf -->
-    <br>
-    <p>Ini adalah paragraf kedua. Buat: <b>Teks tebal</b>, <i>teks miring</i>, <u>dan teks garis bawah.</u></p>
-
-    <p>Kunjungi <a href="google.com">Google</a> untuk mencari <b><i><u>informasi.</u></i></b>
+    <br />
+    <p>
+      Ini adalah paragraf kedua. Buat: <b>Teks tebal</b>, <i>teks miring</i>,
+      <u>dan teks garis bawah.</u>
     </p>
-    <hr>
 
-<!-- membuat gambar -->
+    <p>
+      Kunjungi <a href="google.com">Google</a> untuk mencari
+      <b
+        ><i><u>informasi.</u></i></b
+      >
+    </p>
+    <hr />
+
+    <!-- membuat gambar -->
     <h2>Gambar</h2>
-    <img src="./image/g9.png" alt="Big Hero 6">
-    <hr>
+    <img src="./image/g9.png" alt="Big Hero 6" />
+    <hr />
 
     <!-- membuat list -->
     <h2>Daftar Belanja</h2>
     <ul>
-        <li>Beras
-            <ol>
-                <li>Pulen</li>
-                <li>Pera</li>
-                <li>Merah</li>
-            </ol>
-        </li>
+      <li>
+        Beras
+        <ol>
+          <li>Pulen</li>
+          <li>Pera</li>
+          <li>Merah</li>
+        </ol>
+      </li>
 
-        <li>Telur
-            <ol>
-                <li>Ayam</li>
-                <li>Bebek</li>
-                <li>Puyuh</li>
-            </ol>
-        </li>
+      <li>
+        Telur
+        <ol>
+          <li>Ayam</li>
+          <li>Bebek</li>
+          <li>Puyuh</li>
+        </ol>
+      </li>
 
-        <li>Sayur
-            <ol>
-                <li>Bayam</li>
-                <li>Kangkung</li>
-                <li>Brokoli</li>
-            </ol>
-        </li>
+      <li>
+        Sayur
+        <ol>
+          <li>Bayam</li>
+          <li>Kangkung</li>
+          <li>Brokoli</li>
+        </ol>
+      </li>
     </ul>
-    <hr>
+    <hr />
 
     <h2>Langkah Memasak</h2>
     <ol>
-        <li>Cuci beras</li>
-        <li>Masukkan ke rice cooker</li>
-        <li>Tunggu sampai matang</li>
+      <li>Cuci beras</li>
+      <li>Masukkan ke rice cooker</li>
+      <li>Tunggu sampai matang</li>
     </ol>
-    <hr>
+    <hr />
 
     <!-- membuat tabel -->
-     <h2>Tabel Biodata</h2>
-     <table>
-        <tr>
-            <th>Nama</th>
-            <th>Umur</th>
-            <th>Kota</th>
-        </tr>
+    <h2>Tabel Biodata</h2>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Kota</th>
+      </tr>
 
-        <tr>
-            <td>Ani</td>
-            <td>20</td>
-            <td>Jakarta</td>
-        </tr>
+      <tr>
+        <td>Ani</td>
+        <td>20</td>
+        <td>Jakarta</td>
+      </tr>
 
-        <tr>
-            <td>Budi</td>
-            <td>22</td>
-            <td>Bandung</td>
-        </tr>
-     </table>
-    
-</body>
+      <tr>
+        <td>Budi</td>
+        <td>22</td>
+        <td>Bandung</td>
+      </tr>
+    </table>
+
+    <!-- membuat formulir -->
+    <h2>Formulir Kontak</h2>
+    <form action="#" method="post">
+      <!-- nama -->
+      <label for="nama">Nama:</label><br />
+      <input
+        type="text"
+        placeholder="Nama Lengkap"
+        name="nama"
+        id="nama"
+      /><br /><br />
+
+      <!-- kelas -->
+      <label for="kelas">Kelas:</label><br />
+      <input
+        type="number"
+        placeholder="10"
+        min="10"
+        max="12"
+        name="kelas"
+        id="kelas"
+      /><br /><br />
+
+      <!-- gender -->
+      <label for="gender">Jenis Kelamin</label>
+      <label><input type="radio" name="gender" id="gender" />Pria</label>
+
+      <label><input type="radio" name="gender" id="gender" />Wanita</label
+      ><br /><br />
+
+      <!-- tanggal lahir -->
+      <label for="date">Tanggal Lahir:</label><br />
+      <input type="date" name="date" id="date" /><br /><br />
+
+      <!-- telepon -->
+      <label for="telepon">Nomor Telepon:</label><br />
+      <input
+        type="tel"
+        placeholder="0865-7688-8689"
+        name="tel"
+        id="tel"
+      /><br /><br />
+
+      <!-- absen -->
+      <label for="absen"> Nomor Absen:</label><br />
+      <input
+        type="number"
+        placeholder="15"
+        min="1"
+        max="100"
+        name="absen"
+        id="absen"
+      /><br /><br />
+
+      <!-- email -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        placeholder="contoh@gmail.com"
+        name="email"
+        id="email"
+      /><br /><br />
+
+      <!-- url -->
+      <label for="url">URL Project:</label><br />
+      <input
+        type="url"
+        placeholder="https://contoh.com"
+        name="url"
+        id="url"
+      /><br /><br />
+
+      <!-- file -->
+      <label for="file">Pilih File:</label><br />
+      <input type="file" name="file" id="file" /><br /><br />
+
+      <!-- tanggal dan waktu -->
+      <label for="date-time">Tanggal dan Waktu:</label><br />
+      <input
+        type="datetime-local"
+        name="date-time"
+        id="date-time"
+      /><br /><br />
+
+      <!-- pesan -->
+      <label for="pesan">Pesan:</label><br />
+      <textarea
+        placeholder="Ketikkan sesuatu"
+        name="pesan"
+        id="pesan"
+      ></textarea
+      ><br /><br />
+
+      <!-- hobi -->
+      <label for="hobi">Hobi:</label><br />
+      <label><input type="checkbox" name="hobi" id="hobi" />Membaca</label>
+
+      <label><input type="checkbox" name="hobi" id="hobi" />Olahraga</label>
+
+      <!-- password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        placeholder="Masukkan password"
+        name="password"
+        id="password"
+      /><br /><br />
+
+      <!-- kesulitan tugas -->
+      <label for="range">Kesulitan Tugas:</label><br />
+      <input type="range" name="range" id="range" /><br /><br />
+
+      <!-- mapel -->
+      <label for="search">Cari Mata Pelajaran:</label><br />
+      <input
+        type="search"
+        placeholder="cari ..."
+        name="search"
+        id="search"
+      /><br /><br />
+
+      <!-- button -->
+      <label for="button">Kirimkan jawaban Anda segera!</label><br />
+      <button>Kirim</button>
+
+      <!-- reset -->
+      <input type="reset" name="reset" id="reset" /><br />
+      <hr />
+    </form>
+  </body>
 </html>
